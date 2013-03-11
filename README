@@ -1,4 +1,17 @@
 cpTxzPkg
-========
+
+DESCRIPTION
 
 An small script which makes a backup of Arch Linux's Pacman's cash
+
+GETTING STARTED
+
+The only thing you need to do is to copy this script (cpTxzPkg.sh) to /usr/bin or any other address that is written on PATH variable and make it executable
+
+USAGE
+
+Just go wherever you want to have the cashes copied (or set it by yourself) and call the script:
+
+cpTxzPkg [/path/to/cash [/path/to/backup/directory]]
+
+Tip: If you want to set the backup directory by yourself (default is where you are), you should set cash's path too. Usually it's /var/cache/pacman/pkg/
